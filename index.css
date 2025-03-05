@@ -1,0 +1,402 @@
+/*body*/
+body{
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: #010000;
+    margin: 0px;
+    padding: 0px;
+}
+/*Navbar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #171716;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+/*Navbar logo*/
+.logo{
+    font-size: 40px;
+    color: #e50914;
+    padding: 10px;
+    font-family: monospace;
+}
+/*Navbar links*/
+.links{
+    list-style: none;
+    display: flex;
+    margin: 0px;
+}
+.links li{
+    margin-left:20px ;  
+}
+.links li a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-colour 0.3s;
+}
+.links li a:hover{
+    background-color: red;
+    color: white;
+}
+.num1{
+    background-color:  red;
+    color: white;
+}
+/*hero section*/
+.hero{
+    color: white;
+    padding: 100px;
+}
+.hero1{
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    font-size: 50px;
+}
+.hero2{
+    position: absolute;
+    top: 300px;
+    left: 550px;
+    font-size: 50px;
+}
+.hero3{
+    position: absolute;
+    top: 400px;
+    left: 600px;
+}
+.hero4{
+    position: absolute;
+    top: 450px;
+    left: 400px;
+}
+.email{
+    height: 50px;
+    width: 500px;
+    border: 2px solid  white;
+    color: white;
+    position: relative;
+    bottom: 400px;
+    left: 400px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para
+{
+    text-align: center;
+}
+.start{
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 520px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+.start li a{
+    text-decoration: none;
+    color: whitesmoke;
+    position: absolute;
+    left: 5px;
+    list-style: none;
+}
+.start a:hover{
+    transition:  background-color 0.3s;
+    background-color: red;
+}
+/*trending movie*/
+.trend{
+    color: white;
+    position: absolute;
+    top: 800px;  
+}
+.trend li{
+    height: 50px;
+    width: 100%;
+    border: 2px solid white;
+    background-color: black;
+     color: red;
+    position: absolute;
+    top: 100px;
+    transition: background-color 0.3s;
+    left: 100px;
+     box-shadow: rgba(rgb(15, 14, 14));
+     text-decoration: none;
+}
+.trend li a{
+    text-decoration: none;
+    position: absolute;
+    color: white;
+    top: 2px;
+    left: 5px;
+
+}
+.trend li{
+    text-decoration: none;
+    list-style: none;
+
+}
+.trend a:hover{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+/*movies*/
+.r1{
+    background-color: red;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 1000px;
+    left: 100px;
+}
+.r1 img{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+}
+.r2{
+    background-color: red;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 1000px;
+    left: 450px;
+}
+
+.r2 img{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+}
+.r3{
+    background-color: red;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 1000px;
+    left: 800px;
+}
+.r3 img{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+}
+.r4{
+    background-color: red;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 1000px;
+    left: 1150px;
+}
+.r4 img{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+
+}
+.r5{
+    background-color: red;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 1000px;
+    left: 1500px;
+}
+.r5 img{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+
+
+}
+.more1{
+    color: white;
+    position: absolute;
+    top: 1300px;
+    left: 400px;
+}
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#20101D;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    border-radius: 10px;
+    top: 1400px;
+    left: 100px;
+    color: white;
+}
+.info1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#20101D;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    border-radius: 10px;
+    top: 1400px;
+    left: 550px;
+    color: white;
+}
+.info2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#20101D;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    border-radius: 10px;
+    top: 1400px;
+    left: 1000px;
+    color: white;
+}
+.info3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#20101D;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    border-radius: 10px;
+    top: 1400px;
+    left: 1450px;
+    color: white;
+}
+.rectangle h3{
+    font-size: 25px;
+    color: aliceblue;
+    position: absolute;
+    left: 30px;
+    top: 1600px;
+}
+.rect1{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position: absolute;
+    top: 1700px;
+    left: 50px;
+    transition: background-color 0.5s;
+}
+.rect1 p{
+    position: relative;
+    top: 1px;
+    left: 100px;
+}
+.rect2{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position:absolute;
+    left: 50px;
+    top: 1800px;
+    transition: background-color 0.5s;
+}
+.rect2 p{
+    position: relative;
+    top: 1px;
+    left: 100px;
+}
+.rect3{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position: absolute;
+    top: 1900px;
+    left: 50px;
+    transition: background-color 0.5s;
+}
+.rect3 p{
+    position: relative;
+    top: 1px;
+    left: 100px;
+}
+.rect4{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position: absolute;
+    top: 2000px;
+    left: 50px;
+    transition: background-color 0.5s;
+}
+.rect4 p{
+    position: relative;
+    top: 1px;
+    left: 100px;
+}
+.rect5{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position: absolute;
+    top: 2100px;
+    left: 50px;
+    transition: background-color 0.5s;
+}
+.rect5 p{
+    position: relative;
+    top: 1px;
+    left: 100px;
+}
+.rect6{
+    background-color: #3F3F3F;
+    border-radius: 8px;
+    width: 1200px;
+    height: 50px;
+    color: white;
+    position: absolute;
+    top: 2200px;
+    left: 50px;
+    transition: background-color 0.5s;
+}
+.rect6 p{
+    position: relative;
+    top: 1px;
+    left: 100px;
+}
+.rect1:hover{
+    background-color: red;
+    color: aliceblue;
+}
+.rect2:hover{
+    background-color: red;
+    color: aliceblue;
+}
+.rect3:hover{
+    background-color:red;
+    color: aliceblue;
+}
+.rect4:hover{
+    background-color: red;
+    color: aliceblue;
+}
+.rect5:hover{
+    background-color: red;
+    color: aliceblue;
+}
+.rect6:hover{
+    background-color: red;
+    color: aliceblue;
+}
+
+
+
